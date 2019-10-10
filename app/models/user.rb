@@ -3,8 +3,6 @@ class User < ApplicationRecord
     has_secure_password
     validates :username, uniqueness: true
 
-
-
     has_many :proofs, as: :owner
     has_many :successes
 
@@ -24,6 +22,11 @@ class User < ApplicationRecord
 
         self.successes.map{|s| s.proof.id}
 
+    end
+
+    def token
+
+        JWT.encode({username: self.username}, "super secret key")
 
     end
 
