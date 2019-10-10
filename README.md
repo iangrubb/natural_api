@@ -1,24 +1,3 @@
-# README
+# Natural API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+An API storing data for Natural, a virtual tutor for natural deduction proofs. Find out more at the [repo](https://github.com/iangrubb/Natural) for the main project.
